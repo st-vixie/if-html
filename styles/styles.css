@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-top: 120px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #383838;
+}
+
+.pseudo-hr {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+hr:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, 0);
+  width: 100px;
+  height: 4px;
+  background-color: #f5bd41;
+}
+
+.advantages{
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-wrapper{
+  width: 290px;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-signature{
+  margin-top: auto;
+  text-align: center;
+  font-size: 24px;
+}
