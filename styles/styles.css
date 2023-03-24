@@ -1,10 +1,35 @@
+@import url("./fonts.css");
+
+@font-face {
+  font-family: "Roboto";
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
 .container {
-  padding-top: 120px;
+  padding: 120px 104px 120px 104px;
 }
 
 .title {
@@ -32,12 +57,12 @@ hr:after {
   background-color: #f5bd41;
 }
 
-.advantages{
+.advantages {
   display: flex;
   justify-content: space-around;
 }
 
-.icon-wrapper{
+.icon-wrapper {
   width: 290px;
   height: 184px;
   display: flex;
@@ -45,8 +70,34 @@ hr:after {
   align-items: center;
 }
 
-.icon-signature{
+.icon-signature {
   margin-top: auto;
   text-align: center;
   font-size: 24px;
+}
+
+footer {
+  background-color: #10367c;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about,
+.property,
+.support {
+  text-align: left;
+  width: 25%;
+}
+
+.li-title{
+  font-weight: bold;
+}
+
+#copyright {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 60px;
 }
