@@ -13,21 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #ffff;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 20px;
-}
-
 .container {
   padding: 120px 104px 120px 104px;
 }
@@ -89,10 +74,18 @@ footer {
 .property,
 .support {
   text-align: left;
-  width: 25%;
+  width: 35%;
 }
 
-.title-li{
+.about{
+  padding-left: 104px;
+}
+
+.property{
+  padding-left: 60px;
+}
+
+.title-a{
   font-weight: bold;
 }
 
@@ -100,4 +93,15 @@ footer {
   color: #ffffff;
   font-size: 14px;
   margin-top: 60px;
+  padding-left: 104px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffff;
+}
+
+.footer-links p{
+  margin-bottom: 20px;
 }
